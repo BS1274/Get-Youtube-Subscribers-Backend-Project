@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get Youtube Subscribers Details !!!</title>
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .maindiv {
+      background-color: #343a40;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: #fff;
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .almabetter {
+      background-color: #28a745;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .updiv {
+      background-color: #007bff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .lowdiv{
+      background-color: #4a05d4;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    ul li {
+      margin: 10px 0;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #fff;
+      text-align: left;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.8em;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 1.5em;
+      color: #fff;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .center-text {
+      text-align: center;
+    }
+
+    a {
+      color: #ffc107;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="maindiv">
+    <div class="container">
+      <div class="almabetter">
+        <h1>Backend Project</h1>
+      </div>
+      <div class="updiv">
+        <h1>Get Youtube Subscribers Details</h1>
+        <h2>Try out by entering each route using the routes given below in the URL or in Postman</h2>
+      </div>
+      <div class="lowdiv center-text">
+        <ul>
+          <li>
+            <h3>Click on Get to view Data</h3>
+            <b><a href="/subscribers" target="_blank">GET /subscribers</a></b> : Lists an array of all subscriber details in the database.
+          </li>
+          <li>
+            <b><a href="/subscribers/names" target="_blank">GET /subscribers/names</a></b> : Lists an array of all subscribers with the two fields (name and subscribed channel).
+          </li>
+          <li>
+            <b><a href="/subscribers/:id" target="_blank">GET /subscribers/:id</a></b> : Lists details of subscriber with the given ID.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
